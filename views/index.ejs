@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/index.css">
+    <script defer src="/index.js"></script>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="instructions">
+        <ul>
+            <li>- Drag number boxes into white boxes</li>
+            <li>- Drag number boxes out of white boxes to remove number boxes</li>
+            <li>- Right click on number boxes in white boxes to remove number boxes</li>
+        </ul>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Sum of 15 Game</h1>
+            <p class="header__instructions">Instructions</p>
+        </header>
+
+        <main>
+            <div class="numberContainer">
+                <div draggable="true" class="numberContainer__number">1</div>
+                <div draggable="true" class="numberContainer__number">2</div>
+                <div draggable="true" class="numberContainer__number">3</div>
+                <div draggable="true" class="numberContainer__number">4</div>
+                <div draggable="true" class="numberContainer__number">5</div>
+                <div draggable="true" class="numberContainer__number">6</div>
+                <div draggable="true" class="numberContainer__number">7</div>
+                <div draggable="true" class="numberContainer__number">8</div>
+                <div draggable="true" class="numberContainer__number">9</div>
+            </div>
+
+            <div class="boxContainer">
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+                <div class="boxContainer__box"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy REN CHEN</p>
+        </footer>
+    </div>
+</body>
+</html>
